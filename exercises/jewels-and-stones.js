@@ -5,10 +5,11 @@
   Проще говоря, нужно проверить, какое количество символов из S входит в J.
 */
 
-function check(j, s) {
-  return s.split("").reduce((accum, item) => {
-    if (j.indexOf(item) > -1 && accum.indexOf(item) === -1)
-      return [...accum, item];
-    else return accum;
-  }, []);
+function check (j, s) {
+  return s.split('').reduce((accum, item) => {
+    if (j.indexOf(item) > -1 && accum.indexOf(item) === -1) return [...accum, item]
+    return accum
+  }, [])
 }
+
+console.log(check('lalala', 'opalaopana'))
