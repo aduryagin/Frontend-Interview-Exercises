@@ -1,3 +1,6 @@
+// Написать сумму первых n чисел последовательности fibonacci с мемоизацией
+// (15) => 987
+
 function fibonacci (num, memo) {
   memo = memo || {}
 
