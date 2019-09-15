@@ -8,7 +8,7 @@
  */
 
 function isAnagram (string, secondString) {
-  const getRawString = (x) => x.replace(/[^a-zA-Zа-яА-Я]/g, '').toLowerCase()
+  const getRawString = x => x.replace(/[^a-zA-Zа-яА-Я]/g, '').toLowerCase()
   const rawString = getRawString(string)
   const rawSecondString = getRawString(secondString)
 
@@ -17,10 +17,12 @@ function isAnagram (string, secondString) {
   const stringArr = rawString.split('')
   const secondStringArr = rawSecondString.split('')
 
-  stringArr.map((item) => {
-    const findedIndex = secondStringArr.findIndex((x) => item === x)
-    if (findedIndex !== -1) secondStringArr.splice(findedIndex, 1)
-  })
+  for (let i = 0; i < stringArr.length; i++) {
+    const index = secondStringArr.indexOf(stringArr[i])
+
+    if (index === -1) break
+    else secondStringArr.splice(index, 1)
+  }
 
   return secondStringArr.length === 0
 }
