@@ -21,7 +21,7 @@ function getMoney(amount, limits) {
 }
 */
 
-export const LIMITS = {
+const LIMITS = {
   5000: 10,
   1000: 10,
   500: 10,
@@ -30,11 +30,11 @@ export const LIMITS = {
   30: 10
 }
 
-export function getMoney (money, limits) {
+function getMoney (money, limits) {
   function findMoney (innerMoney, innerLimits = { ...limits }, result = {}) {
     const nominals = Object.keys(innerLimits)
     const sortedNominals = nominals.sort((a, b) => b - a)
-    const bestNominal = sortedNominals.find((sortedNominal) => {
+    const bestNominal = sortedNominals.find(sortedNominal => {
       const nominal = sortedNominal
       return (
         innerMoney >= nominal &&
@@ -76,7 +76,9 @@ export function getMoney (money, limits) {
     resultLimits = data.limits
   }
 
-  if (!Object.keys(resultData).length) return 'warn'
+  if (!Object.keys(resultData).length) return 'warn';
 
   return { resultData, resultLimits: { ...limits, ...resultLimits } }
 }
+
+console.log(getMoney(120, LIMITS))
