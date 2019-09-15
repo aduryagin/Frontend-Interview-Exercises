@@ -1,4 +1,3 @@
-
 /*
   Дано целое число n. Требуется вывести все правильные скобочные последовательности длины 2 ⋅ n,
   упорядоченные лексикографически (см. https://ru.wikipedia.org/wiki/Лексикографический_порядок).
@@ -8,13 +7,14 @@
   и при этом использует объём памяти, пропорциональный n.
   */
 
-export default function generateSeq (n) {
+function generateSeq (n) {
   function generate (n, opened = 0, closed = 0, result = '') {
     if (opened + closed === 2 * n) return result
 
     if (opened < n) {
       return generate(n, opened + 1, closed, `${result}(`)
-    } if (opened > closed) {
+    }
+    if (opened > closed) {
       return generate(n, opened, closed + 1, `${result})`)
     }
   }
@@ -50,8 +50,10 @@ export default function generateSeq (n) {
 
   let first = generate(n)
   console.log(first)
-  // eslint-disable-next-line
+
   while ((first = next(first))) {
     console.log(first)
   }
 }
+
+console.log(generateSeq(3))
