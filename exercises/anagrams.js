@@ -8,23 +8,24 @@
  */
 
 function isAnagram (string, secondString) {
-  const getRawString = x => x.replace(/[^a-zA-Zа-яА-Я]/g, '').toLowerCase()
-  const rawString = getRawString(string)
-  const rawSecondString = getRawString(secondString)
+  const getRawStringArr = x =>
+    x
+      .replace(/[^a-zA-Zа-яА-Я]/g, '')
+      .toLowerCase()
+      .split('')
+  const rawStringArr = getRawStringArr(string)
+  const rawSecondStringArr = getRawStringArr(secondString)
 
-  if (rawString.length !== rawSecondString.length) return false
+  if (rawStringArr.length !== rawSecondStringArr.length) return false
 
-  const stringArr = rawString.split('')
-  const secondStringArr = rawSecondString.split('')
-
-  for (let i = 0; i < stringArr.length; i++) {
-    const index = secondStringArr.indexOf(stringArr[i])
+  for (let i = 0; i < rawStringArr.length; i++) {
+    const index = rawSecondStringArr.indexOf(rawStringArr[i])
 
     if (index === -1) break
-    else secondStringArr.splice(index, 1)
+    else rawSecondStringArr.splice(index, 1)
   }
 
-  return secondStringArr.length === 0
+  return rawSecondStringArr.length === 0
 }
 
 console.log(isAnagram('finder', 'Friend'))
