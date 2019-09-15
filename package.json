@@ -1,0 +1,28 @@
+{
+  "name": "interview-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint exercises --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aduryagin/interview-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aduryagin/interview-exercises/issues"
+  },
+  "homepage": "https://github.com/aduryagin/interview-exercises#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
