@@ -15,6 +15,7 @@
 
 * https://habr.com/ru/post/196560/
 * https://habr.com/ru/post/156361/
+* https://habr.com/ru/post/444594/
 
 ## Interview articles
 
