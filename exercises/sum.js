@@ -3,10 +3,10 @@
  * f(1)(2)(3) => 6
  */
 
-function sum (a) {
+function sum(a) {
   let result = a
 
-  function sum2 (b) {
+  function sum2(b) {
     result += b
 
     return sum2

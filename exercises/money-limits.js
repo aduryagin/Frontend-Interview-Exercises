@@ -24,14 +24,13 @@ function getMoney(amount, limits) {
 const LIMITS = {
   5000: 10,
   1000: 10,
-  500: 10,
-  100: 10,
-  50: 10,
-  30: 10
+  500: 0,
+  100: 34,
+  50: 0
 }
 
-function getMoney (money, limits) {
-  function findMoney (innerMoney, innerLimits = { ...limits }, result = {}) {
+function getMoney(money, limits) {
+  function findMoney(innerMoney, innerLimits = { ...limits }, result = {}) {
     const nominals = Object.keys(innerLimits)
     const sortedNominals = nominals.sort((a, b) => b - a)
     const bestNominal = sortedNominals.find(sortedNominal => {
@@ -76,7 +75,7 @@ function getMoney (money, limits) {
     resultLimits = data.limits
   }
 
-  if (!Object.keys(resultData).length) return 'warn';
+  if (!Object.keys(resultData).length) return 'warn'
 
   return { resultData, resultLimits: { ...limits, ...resultLimits } }
 }
