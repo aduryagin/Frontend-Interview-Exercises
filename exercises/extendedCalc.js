@@ -1,3 +1,7 @@
+/**
+ * Калькулятор с добавлением новых операторов
+ */
+
 function Calculator () {
   this.operations = {
     '+': (a, b) => a + b,

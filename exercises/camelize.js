@@ -1,3 +1,7 @@
+/**
+ * Написать функцию, которая переводит в camelCase из kebab-case
+ */
+
 function camelize (str) {
   return str.split('-')
     .map((item, index) => {

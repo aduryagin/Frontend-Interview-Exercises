@@ -1,3 +1,7 @@
+/**
+ * Написать декоратор, запоминающий аргументы при выполнении функции
+ */
+
 function spy (func) {
   function wrapper (...args) {
     wrapper.calls.push(args)
