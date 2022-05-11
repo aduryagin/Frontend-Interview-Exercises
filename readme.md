@@ -1,9 +1,27 @@
 # Frontend interview
 
-## Theory
+## Topics
 
-* https://learn.javascript.ru
-* https://refactoring.guru/ru/design-patterns/typescript
+* Patterns (https://refactoring.guru/ru/design-patterns/typescript)
+* Practice handwriting of common functions (e.g. algorithms)
+* Reflow Repaint
+* Declarative vs Imperative, Functional programming questions
+* Closures
+* What is html and css?
+* How the browser renders a web page?
+* What is a CDN?
+* How to develop a virtual list?
+* Sortings, stack, queue
+* Layout (html, css) grid, flex, float, clearfix, css selector weight
+* Theory (https://learn.javascript.ru)
+* Pure functions
+* Big O Notation, Time Complexity
+* Event Loop
+* React https://reactjs.org/
+* https://github.com/sudheerj/javascript-interview-questions
+* https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
+* https://github.com/lydiahallie/javascript-questions
+* https://github.com/learning-zone/javascript-interview-questions
 
 ## Algorithms
 
