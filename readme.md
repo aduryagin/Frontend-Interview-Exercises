@@ -16,7 +16,8 @@
 * Theory (https://learn.javascript.ru)
 * Pure functions
 * Big O Notation, Time Complexity
-* Event Loop
+* Event Loop 
+* Typescript https://www.typescriptlang.org/
 * React https://reactjs.org/
 * https://github.com/sudheerj/javascript-interview-questions
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
