@@ -2,12 +2,23 @@
 
 ## Topics
 
-* Theory (https://learn.javascript.ru)
-* Typescript https://www.typescriptlang.org/
-* Patterns (https://refactoring.guru/ru/design-patterns/typescript)
-* React https://reactjs.org/
+* Theory
+  * https://learn.javascript.ru
+* Typescript
+  * https://www.typescriptlang.org/ 
+* Patterns
+  * https://refactoring.guru/ru/design-patterns/typescript 
+* React
+  * https://reactjs.org/ 
+* Algorithms
+  * https://github.com/trekhleb/javascript-algorithms
+  * https://www.interviewbit.com/courses/programming/
+  * https://m.habr.com/ru/company/yandex/blog/340784/
 * Pure functions
 * Big O Notation, Time Complexity
+  * https://habr.com/ru/post/196560/
+  * https://habr.com/ru/post/156361/
+  * https://habr.com/ru/post/444594/
 * Event Loop 
 * Declarative vs Imperative, Functional programming questions
 * Practice handwriting of common functions (e.g. algorithms)
@@ -23,18 +34,6 @@
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
 * https://github.com/lydiahallie/javascript-questions
 * https://github.com/learning-zone/javascript-interview-questions
-
-## Algorithms
-
-* https://github.com/trekhleb/javascript-algorithms
-* https://www.interviewbit.com/courses/programming/
-* https://m.habr.com/ru/company/yandex/blog/340784/
-
-## O(n)
-
-* https://habr.com/ru/post/196560/
-* https://habr.com/ru/post/156361/
-* https://habr.com/ru/post/444594/
 
 ## Interview articles
 
