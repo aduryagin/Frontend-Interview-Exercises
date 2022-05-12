@@ -2,10 +2,16 @@
 
 ## Topics
 
+* Theory (https://learn.javascript.ru)
+* Typescript https://www.typescriptlang.org/
 * Patterns (https://refactoring.guru/ru/design-patterns/typescript)
+* React https://reactjs.org/
+* Pure functions
+* Big O Notation, Time Complexity
+* Event Loop 
+* Declarative vs Imperative, Functional programming questions
 * Practice handwriting of common functions (e.g. algorithms)
 * Reflow Repaint
-* Declarative vs Imperative, Functional programming questions
 * Closures
 * What is html and css?
 * How the browser renders a web page?
@@ -13,12 +19,6 @@
 * How to develop a virtual list?
 * Sortings, stack, queue
 * Layout (html, css) grid, flex, float, clearfix, css selector weight
-* Theory (https://learn.javascript.ru)
-* Pure functions
-* Big O Notation, Time Complexity
-* Event Loop 
-* Typescript https://www.typescriptlang.org/
-* React https://reactjs.org/
 * https://github.com/sudheerj/javascript-interview-questions
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
 * https://github.com/lydiahallie/javascript-questions
